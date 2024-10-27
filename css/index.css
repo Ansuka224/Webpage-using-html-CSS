@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #E8E7EC;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #CACACA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.pink_rectangle{
+    background-color: pink;
+    height: 16vh;
+    border-radius: 0 0 0 50vw;
+
+}
+.logo{
+    margin-left: 8vw;
+    height: 110px;
+}
+.navbar a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-left: 3vw;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+}
+#checkbutton,.close-menu{
+    position: absolute;
+}
+#checkbutton{
+    margin-top: 6vh;
+    font-size: 30px;
+    margin-left: 4vw;
+    display: none;
+    cursor: pointer;
+    top: 8%; 
+    transform: translateY(-50%);
+}
+.close-menu{
+    display: none;
+    font-size: 38px;
+    margin-top: -3vh;
+    margin-left: 4vw;
+    cursor: pointer;
+    z-index: 1100;
+}
+#check{
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+#check:checked ~ #checkbutton{
+    display: none;
+}
+#check:checked ~ .close-menu{
+    display: inline;
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+#home{
+    font-family: "Oregano", regular;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 20vh;
+}
+.img_1{
+    display: block;
+    height: 50rem;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap:40rem;
+    row-gap:-5rem;
+    width: 80rem;
+    height: 40rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    background: url(../image/sunglass\ dog.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h3{
+    font-size: 45px;
+    color: #9C0000;
+    position: absolute;
+}
+#p1{
+    position: relative;
+    font-size: 28px;
+    margin-top: -5rem;
+    margin-left: 4rem;
+}
+.img_2{
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+#learnh1{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+#donateh1{
+    margin-top:-2rem;
+    margin-left: 6rem;
+}
+.img_4{
+    margin-left: 18rem;
+    margin-top: -2rem;
+}
+#p3{
+    position: relative;
+    font-size: 28px;
+    margin-top: -5rem;
+    margin-left: 1rem;
+}
+#styleh1{
+    margin-top: 1rem;
+    margin-left: -7rem;
+}
+.img_3{
+    margin-left:-17rem;
+    margin-top: 2rem;
+}
+#p2{
+    position: relative;
+    font-size: 28px;
+    margin-top: -5rem;
+    margin-left: -7rem;
+}
+#adopth1{
+    margin-top: -2.5rem;
+    margin-left: -6rem;
+}
+.img_5{
+    margin-left:-16rem;
+    margin-top: -2rem;
+}
+#p4{
+    position: relative;
+    font-size: 28px;
+    margin-top: -6rem;
+    margin-left: -7rem;
+}
+
+#pwanation{
+    font-family: "Oranienbaum", serif;
+    color: #670404;
+    font-size: 65px;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+.rectangle1{
+    background-color: #DEDDE2;
+    height: 35rem;
+    margin-top: 2rem;
+}
+.img_6{
+    margin-left: 8rem;
+}
+@media (max-width: 1316px){
+    .navbar a{
+        font-size: 17px;
+    }
+}
+@media (max-width:1158px){
+    .pink_rectangle{
+        height: 15vh;
+        width: 39vw;
+    }
+    .logo{
+        height: 13vh;
+        margin-left: 4vw;
+    }
+    .navbar a{
+        font-size: larger;
+    }
+}
+@media (max-width:1010px){
+    .pink_rectangle{
+        height: 15vh;
+        width: 38vw;
+    }
+    .logo{
+        height: 10vh;
+        margin-left: 5vw;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    
+    #checkbutton{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        background: #526168;
+        position: absolute;
+        top: -2vh;
+        left: -105vh;
+        opacity: 70%;
+        transition: .5s;
+    }  
+    nav ul li{
+        display: block;
+        text-align: left;
+        margin-top: 7vh;
+    }
+    .navbar a{
+        font-size: 28px;
+        text-decoration: solid black;
+    }
+    
+
+}
+@media (max-width:895px){
+    .pink_rectangle{
+        height: 13vh;
+        width: 44vw;
+        
+    }
+    .logo{
+        height: 9vh;
+        margin-left: 7vw;
+    }
+    .navbar a{
+        font-size: 13px;
+    }
+
+}
+@media (max-width:755px){
+    .pink_rectangle{
+        height: 13vh;
+        width: 44vw;
+        
+    }
+    .logo{
+        height: 9vh;
+        margin-left: 7vw;
+    }
+
+}
+@media (max-width:692px){
+    .pink_rectangle{
+        height: 11vh;
+        width: 46vw;
+
+        
+    }
+    .logo{
+        height: 8vh;
+        margin-left: 8vw;
+    }
+    #checkbutton{
+        margin-top: 5vh;
+    }
+}
+@media (max-width:600px){
+    .pink_rectangle{
+        height: 10vh;
+        width: 46vw;
+
+        
+    }
+    .logo{
+        height: 6vh;
+        margin-left: 6vw;
+    }
+    #checkbutton{
+        margin-top: 5vh;
+    }
+}
+@media (max-width:423px){
+    .pink_rectangle{
+        height: 6.5vh;
+        width: 38vw;
+
+        
+    }
+    .logo{
+        height: 4vh;
+        margin-left: 4.5vw;
+        margin-top: 1vh;
+    }
+
+}

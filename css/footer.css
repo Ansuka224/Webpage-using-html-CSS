@@ -1,0 +1,103 @@
+
+.footer{
+    position: fixed;
+    background-color: #8A7272;
+    height: 31rem;
+    margin-top: 3rem;
+}
+#querry{
+    font-size: 75px;
+    color: white;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    position: absolute;
+}
+#mail_info{
+   font-size: 32px;
+   margin-left: 16rem;
+   margin-top: -3rem;
+}
+.footer_phone{
+    margin-left: 12.5rem;
+    margin-top: 0rem;
+}
+#phone_no{
+    font-size: 32px;
+   margin-left: 16rem;
+   margin-top: -3rem;
+}
+#footer_learn{
+    display: flexbox;
+    color: white;
+    font-size: 38px;
+    margin-left: 8vw;
+    margin-top: 13vh;
+}
+#know_your_pets{
+    margin-top: -3rem;
+    font-size: 28px;
+    margin-left: 6rem;
+
+}
+#footer_donate{
+    color:white;
+    font-size: 38px;
+    margin-left: 20rem;
+    margin-top: -8.7rem;
+}
+#volunteer{
+    font-size: 28px;
+    margin-left: 20rem;
+    margin-top: -2.7rem;
+}  
+
+#footer_followus{
+    font-size: 38px;
+    color: white;
+    margin-left: 43rem;
+    margin-top: -9rem;
+}
+.vertical_line {
+    border-left: 3px solid black;
+    height: 8rem;
+    margin-left: 40rem;
+    margin-top: -9rem;
+}
+#reachus{
+    color: white;
+    font-size: 36px;
+    margin-top: -22rem;
+    margin-left: 60rem;
+}
+.footer_dog{
+    margin-left: 75rem;
+    margin-top: -12rem;
+    height: 26rem;
+}
+#button1{
+    background-color: #000000;
+    width: 12rem;
+    height: 5rem;
+    margin-top: -3rem;
+    margin-left: 60rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 48px;
+    color: white;
+   
+    
+}
+.social {
+    width: 26rem;
+    height: 5rem;
+    margin-left: 42rem; 
+    margin-top: -3rem;
+    
+}
+
+.social a {
+    color: #000000;
+    font-size: 60px;
+    margin: 0 20px; 
+    display: inline-block;
+}
